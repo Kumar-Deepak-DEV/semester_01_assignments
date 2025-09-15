@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Showcase</title>
+</head>
+<body>
+    <h1 id="home">HTML - Inline vs Block</h1>
+    <p>Introduction: 
+    <br>
+    In HTML, elements are broadly divided into two categories: block-level and inline. Block elements take up the full width, while inline elements only take as much space as needed.</p>
+    <a href="#block">Block Elements</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="#inline">Inline Elements</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="#compare">Comparison</a>
+    <br>
+    <hr>
+    <br>
+    <section id="block">
+        <h2>Block Elements</h2>
+        <p>Example: <p>This is a paragraph</p>
+            Explanation: The &lt;p> tag defines a block of text 
+            that always starts on a new line.
+        </p>
+        <hr>
+        <p>Example: <h1>This is a heading</h1>
+            Explanation: Headings are block-level elements 
+            that take the full width.
+        </p>
+        <hr>
+        <p>Example: 
+            <blockquote>"Coding is the new literacy."</blockquote>
+            Explanation: Blockquote is a block container for quotations.
+        </p>
+        <hr>
+        <p>
+            Example <div>
+                This is use of division (div) tag.
+            </div>
+            Explanation: division tag creates a division in a webpage to design it separately.
+        </p>
+        <hr>
+        <p>
+            Example:
+            <hr>
+            &lt;hr> tag creates a horizontal line.
+        </p>
+        <hr>
+        <ol>
+            Example:
+            <li>Palace</li>
+            <li>Mansion</li>
+            <br>
+            Explanation:
+            <li>&lt;ol> creates a ordered list.</li>
+            <li>it has many bullets like number, romans, alphabets.</li>
+        </ol>
+        <hr>
+         <ul>
+            Example:
+            <li>mango</li>
+            <li>apple</li>
+            Explanation:
+            <br>
+            <li>&lt;ul> creates a ordered list.</li>
+            <li>it has many bullets like circle, disc etc.</li>
+        </ul>
+        <hr>
+        <dl>
+            Example:
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            <br>
+            Explanation:
+            <dt> &lt;dl>, &lt;dd>, &lt;dt> tags</dt>
+            <dd>these tags are definition list, definition term, and defined data used to define terms in html.</dd>
+        </dl>
+    </section>
+    <br>
+    <hr size="5px" color="Black">
+    <br>
+    <section id="inline">
+    <h2>Inline elements</h2>
+    Example:
+    <p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5VLSL5Z3niwCazDwPWuta2G-LSpzdLw50XA&s" alt="Jama masjid" title="Jama Masjid" height="500px" width="500px">
+    Explanation:
+    this is &lt;img> tag, used to insert image</p>
+    <hr>
+    <p>
+        Example:
+        <audio src="../../html/audio.mp3" controls></audio>
+        Explanation:
+        this is &lt;audio> tag, used to insert audio.
+    </p>
+    <hr>
+    <p>
+        Example:
+        <video src="../../html/video.mp4" controls  height="300px" width="500px"></video>
+        Explanation:
+        this is &lt;video> tag, used to insert videos.
+    </p>    
+    <hr>
+    <p>
+        Example:
+        <a href="www.google.com">Google</a>
+        Explanation:
+        this is &lt;a> tag, used to generate hyperlinks.
+    </p>
+    <hr>
+    <p>
+        Example:
+        <cite>using &lt;cite> tag</cite>
+        <br>
+        Explanation: This tag is used to note down citetions.
+    </p>
+    <hr>
+    <p>
+        Example: <b> using &lt;b> tag</b>
+        <br>
+        Explanation: we can bold any text.</p>
+    <hr>
+    <p>Example: <i> using &lt;i> tag</i>
+        <br>
+        Explanation: we can italic any text.</p>
+    <hr>
+    <p>Example: <iframe src="https://en.wikipedia.org/wiki/Computer_science" frameborder="2px" height="500px" width="500px"></iframe>
+        <br>
+        Explanation: this is iframe tag, used to embed any required webpage into parent webpage.</p>
+    <hr>
+    <p>
+        Example:
+        <abbr title="abbriviation tag">&lt;abbr></abbr>
+        Explanation: This is used to create abbreviations.
+    </p>
+    <hr>
+    <p>
+        Example:
+        <label for="">&lt;label></label>
+        <br>
+        Explanation: This tag is used to label input fields.
+    </p>
+    <hr>
+    </section>
+    <br>
+    <hr size="5px" color="Black">
+    <br>
+    <section id="compare">
+        <table border="2px">
+            <caption>Difference between Inline and Block Elements</caption>
+            <thead>
+                <tr>
+                    <th>S. No. </th>
+                    <th>Block Elements</th>
+                    <th>Inline Elements</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>It always starts from a new line.</td>
+                    <td>It never starts from new line.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Stretches to the whole width. </td>
+                    <td>Stretches only to width of its content.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Divides and Structure the major section of a page.</td>
+                    <td>Used for styling specific text and inline elements.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Can contain both block and inline elements.</td>
+                    <td>Can only contain inline elements.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>&lt;p>, &lt;h1>, &lt;div>, &lt;ul>, &lt;ol>, &lt;hr>,&lt;br>&lt;dl> </td>
+                    <td>&lt;img>, &lt;audio>, &lt;video>, &lt;iframe>, &lt;a>, &lt;cite>, &lt;b>, &lt;i> </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br>
+    <a href="#home">Back to Top</a>
+</body>
+</html>
